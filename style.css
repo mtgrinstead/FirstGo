@@ -25,6 +25,9 @@
 
 div {
 	display: grid;
+	position: relative;
+	left:80px;
+	top: 20px;
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 1px;
 	width: 15%;
