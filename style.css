@@ -1,13 +1,9 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {}
 
-.tinynav {
-	width: 50%;
-	overflow: auto;
-	margin: auto;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
+.oceanwp-mobile-menu-icon {
+	float: none !important;
+	right: auto !important;
+	text-align: center;
 }
 
 /*Page Layout Style */
