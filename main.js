@@ -1,5 +1,5 @@
 // Code For Life Buttons
-var life = 30;
+var life = 20;
 
 function lifeCounterUp() {
   life += 1;
@@ -15,7 +15,11 @@ function lifeCounterDown() {
 var poison = 0;
 
 function poisonCounterUp() {
-  poison += 1;
+  if (poison < 10) {
+    poison += 1
+  } else {
+    poison: null
+  }
   document.getElementById("poisonCount").innerHTML = poison;
 };
 
@@ -27,3 +31,10 @@ function poisonCounterDown() {
   }
   document.getElementById("poisonCount").innerHTML = poison;
 };
+
+function statReset() {
+  life = 30;
+  poison = 0;
+   document.getElementById("lifeCount").innerHTML = life;
+   document.getElementById("poisonCount").innerHTML = poison;
+}
