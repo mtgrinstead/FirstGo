@@ -9,17 +9,21 @@
 .lifeObject {
 	display: flex;
 	flex-direction: row;
-	border: 1px solid black;
 	align-items: center;
-	margin: 2px;
+	justify-content: center;
+	border: 1px solid black;
+	margin: 1px;
+	flex-basis: content;
 }
 
 .poisonObject {
 	display: flex;
 	flex-direction: row;
-	border: 1px solid black;
 	align-items: center;
-	margin: 2px;
+	justify-content: center;
+	border: 1px solid black;
+	margin: 1px;
+	flex-basis: content;
 }
 
 .resetObject {
