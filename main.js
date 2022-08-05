@@ -33,7 +33,7 @@ function poisonCounterDown() {
 };
 
 function statReset() {
-  life = 30;
+  life = 20;
   poison = 0;
    document.getElementById("lifeCount").innerHTML = life;
    document.getElementById("poisonCount").innerHTML = poison;

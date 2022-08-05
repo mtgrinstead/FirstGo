@@ -12,27 +12,35 @@
 </head>
 
 <body>
+  <table>
+  <tr>
   <div class ="lifeObject">
-    <h3>Life Counter</h3>
+    <h3>Life Counter &nbsp &nbsp &nbsp</h3>
     <button class ="Down" id="lifeDown" onclick="lifeCounterDown()">-</button>
 
-        <p class="number"> <a id="lifeCount"> 30 </a></p>
+        <p class="number">&nbsp<a id="lifeCount">20</a>&nbsp</p>
 
     <button class ="Up" id="lifeUp" onclick="lifeCounterUp()">+</button>
-    </div>
+  </div>
+  </tr>
 
+  <tr>
     <div class="poisonObject">
-      <h3>Poison Counter</h3>
+      <h3>Poison Counter &nbsp &nbsp &nbsp</h3>
     <button class ="Down" id="poisonDown" onclick="poisonCounterDown()">-</button>
 
-        <p class="number"> <a id="poisonCount"> 0 </a></p>
+        <p class="number">&nbsp<a id="poisonCount">0</a>&nbsp</p>
 
     <button class ="Up" id="poisonUp" onclick="poisonCounterUp()">+</button>
   </div>
-  
+  </tr>
+
+  <tr>
   <div class="resetObject">
     <button class="reset" id="resetStat" onclick="statReset()">Reset Stats</button>
 </div>
+</tr>
+</table>
 
 </body>
 </html>
