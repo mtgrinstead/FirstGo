@@ -1,10 +1,12 @@
 .tinynav {
-	display: block;
-	padding: 0;
-	border: 1px solid #000;
-	margin:0 auto;
-	width:200px;
-	}
+	width: 50%;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
 
 /*Page Layout Style */
 
