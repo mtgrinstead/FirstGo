@@ -1,9 +1,9 @@
 @media only screen and (max-device-width : 428px) and (orientation : landscape) {
 .wrapper {
 	margin: 0 auto;
+	text-align: center;
 }
-
-	.lifeObject {
+	/* .lifeObject {
 	min-width: 220px;
 	margin: 0 auto;
 	}
@@ -14,7 +14,7 @@
 .resetObject {
 	min-width: 220px;
 	margin: 0 auto;
-	}
+	} */
 }
 
 /*Page Layout Style */
