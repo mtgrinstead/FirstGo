@@ -1,5 +1,10 @@
 @media only screen and (max-device-width : 428px) and (orientation : landscape) {
-.lifeObject {
+div {
+	min-width: 220px;
+	margin: 0 auto;
+}
+
+	.lifeObject {
 	min-width: 220px;
 	margin: 0 auto;
 }
