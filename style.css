@@ -44,7 +44,6 @@
 
 div {
 	display: flex;
-	position: relative;
 	margin: 0 80px;
 	width: 350px;
 	justify-content: center;
