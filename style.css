@@ -1,8 +1,12 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {}
-#centeredmenu {
-	clear:both;
+@media only screen and (max-device-width : 428px) and (orientation : landscape) {
+.lifeObject {
+	min-width: 220px;
+	margin: auto;
+}
+.poisonObject {
 	min-width: 220px;
 	margin: 0 auto;
+}
 }
 
 /*Page Layout Style */
