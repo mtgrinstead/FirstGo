@@ -1,11 +1,15 @@
 @media only screen and (max-device-width : 428px) and (orientation : landscape) {
 .lifeObject {
 	min-width: 220px;
-	margin: auto;
+	margin: 0 auto;
 }
 .poisonObject {
 	min-width: 220px;
-	margin auto;
+	margin: 0 auto;
+}
+.resetObject {
+	min-width: 220px;
+	margin: 0 auto;
 }
 }
 
@@ -41,7 +45,7 @@
 div {
 	display: flex;
 	position: relative;
-	margin: 80px;
+	margin: 0 80px;
 	width: 350px;
 	justify-content: center;
 
