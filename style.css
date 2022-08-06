@@ -41,8 +41,8 @@
 div {
 	display: grid;
 	position: relative;
-	left:80px;
-	top: 20px;
+	left: flex;
+	top: flex;
 	width: 350px;
 	justify-content: center;
 
