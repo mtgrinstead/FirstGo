@@ -39,10 +39,8 @@
 }
 
 div {
-	display: grid;
+	display: flex;
 	position: relative;
-	left: flex;
-	top: flex;
 	width: 350px;
 	justify-content: center;
 
