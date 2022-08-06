@@ -1,3 +1,4 @@
+
 // Code For Life Buttons
 var life = 20;
 
