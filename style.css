@@ -5,7 +5,7 @@
 }
 .poisonObject {
 	min-width: 220px;
-	margin: auto;
+	margin auto;
 }
 }
 
@@ -41,8 +41,8 @@
 div {
 	display: grid;
 	position: relative;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 1px;
+	left:80px;
+	top: 20px;
 	width: 350px;
 	justify-content: center;
 
